@@ -1,0 +1,77 @@
+// array.cpp : Defines the entry point for the console application.
+
+//
+
+
+#include "stdafx.h"
+
+#include <iostream>
+
+using namespace std;
+
+
+
+int main()
+
+{
+
+	const int a = 10;
+
+	int arr[a];
+
+	int X;
+
+	int d;
+
+	cout << "Enter x";
+
+	cin >> X;
+
+
+
+
+
+	for (int i = 0; i < a; i++) {
+
+		cin >> arr[i];
+
+	}
+
+	for (int z = 0; z < a;z++) {
+
+		if (arr[k] == numX) {
+
+			for (int q = k; q < a-1; q++) {
+
+			while (arr[q + 1] == numX) {
+
+					for ( m = q + 1; m < a ; m++)
+
+					{
+
+						arr[m] = arr[m + 1];
+
+					}
+
+					arr[m - 1] = 0;
+
+				}
+
+				arr[j] = arr[j + 1];
+
+			}
+
+			arr[a - 1] = 0;
+
+		}
+
+	}
+
+	for (int w = 0; w < a; w++) {
+
+		cout << arr[w];
+
+	}
+    return 0;
+
+}
