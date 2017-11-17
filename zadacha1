@@ -21,7 +21,7 @@ int main()
 
 	int X;
 
-	int d;
+	int m;
 
 	cout << "Enter x";
 
